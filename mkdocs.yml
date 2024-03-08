@@ -1,0 +1,13 @@
+site_name: Melee EU Rankings
+site_description: This site hosts the Super Smash Bros. Melee EU Rankings
+site_author: Keven Quach
+repo_name: kequach/melee-eu-rankings
+repo_url: https://github.com/kequach/melee-eu-rankings
+edit_uri: ""
+theme:
+  name: material
+  palette:
+    primary: grey
+    accent: amber
+extra_css:
+  - stylesheets/extra.css
