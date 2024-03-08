@@ -14,12 +14,6 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install -r requirements.txt
-      - name: Deploy main
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: main
-          FOLDER: .
       - name: Build
         run: |
           sed 's/docs\/img\//img\//g' README.md > docs/index.md
